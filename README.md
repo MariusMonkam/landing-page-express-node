@@ -12,3 +12,32 @@ including form data. to do it use `yarn add body-parser `or `npm install body-pa
 we ll also need Pug which is a HTML templating engine, which means you can write
 much simpler Pug code, which Pug compiler will compile into HTML code, 
 that browser can understand, and nodemon to auto reload the server .
+our package.json will look like this 
+```javascript
+{
+  "name": "company_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3",
+    "pug": "^2.0.4"
+  }
+}
+´´´
+
+inside app.js
+let's define the variables
+//initialize the app
+//setting up View
+//Setting view 
+//setting view engine
+//create route
+happy hacking
